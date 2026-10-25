@@ -109,6 +109,23 @@ ipython_config.py
 # poetry.lock
 # poetry.toml
 
+# IMAD local data and experiment artifacts
+/data/*
+!/data/README.md
+/models/*
+!/models/README.md
+/reports/experiments/*
+!/reports/experiments/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.parquet
+*.csv.tmp
+*.jsonl
+.env.*
+!.env.example
+
 # pdm
 #   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
 #   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.

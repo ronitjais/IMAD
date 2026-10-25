@@ -1,0 +1,3 @@
+# Limitations
+
+Detector outputs describe similarity to a labeled training distribution. They cannot establish provenance, truth, intent, or authenticity. Human-written text may be flagged as generated; generated content may evade detection. Post-processing, compression, domain shift, and new generators can change behavior. GenImage's natural images come from ImageNet and its artificial images come from named generators, so source artifacts may be learned. OmniFake's `fake` binary label includes human-crafted misinformation and is not equivalent to AI-generated content. Report score semantics and model version with every inference; do not call an uncalibrated score a probability.

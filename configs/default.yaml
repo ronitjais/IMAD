@@ -1,0 +1,14 @@
+seed: 42
+data:
+  image_root: ./data/genimage
+  split_manifest: ./data/manifests/image_splits.csv
+  image_size: 224
+  validation_fraction: 0.15
+  test_fraction: 0.15
+image:
+  architecture: resnet18
+  batch_size: 32
+  learning_rate: 0.0001
+  epochs: 5
+  num_workers: 2
+  checkpoint: ./models/image_baseline.pt

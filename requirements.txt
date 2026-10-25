@@ -1,0 +1,4 @@
+# Minimal local environment. Add `.[image,dev]` for training and development.
+numpy==2.1.3
+Pillow==11.0.0
+PyYAML==6.0.2
